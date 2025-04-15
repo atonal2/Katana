@@ -1,3 +1,4 @@
 api_id=''
 api_hash=''
 bot='@'
+reply=
