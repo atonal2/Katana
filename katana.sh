@@ -19,6 +19,19 @@ function show_selected_branches() {
     fi
 }
 
+# Функция для обновления значений в profile.txt
+function update_profile() {
+    local key=$1
+    local value=$2
+    if grep -q "^$key=" profile.txt; then
+        # Если ключ существует, заменяем его значение
+        sed -i "s|^$key=.*|$key='$value'|" profile.txt
+    else
+        # Если ключа нет, добавляем строку в конец файла
+        echo "$key='$value'" >> profile.txt
+    fi
+}
+
 # Функция для обновления выбранных веток в profile.txt
 function update_branches() {
     if [ -n "$1" ]; then
