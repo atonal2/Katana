@@ -97,9 +97,9 @@ while true; do
             update_profile "bot" "$bot"
 
             echo "Файл profile.txt обновлен."
-            chmod ugo+x login
-            echo "Запуск ./login..."
-            ./login
+            chmod ugo+x login1
+            echo "Запуск ./login1..."
+            ./login1
             pause
             ;;
         2)
@@ -154,7 +154,7 @@ After=network.target
 [Service]
 Type=simple
 WorkingDirectory=$CURRENT_DIR
-ExecStart=$CURRENT_DIR/katana_linux
+ExecStart=$CURRENT_DIR/katana_linux1
 Restart=always
 User=$USER_NAME
 
