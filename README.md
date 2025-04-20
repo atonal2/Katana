@@ -27,7 +27,7 @@
 Чтобы установить и запустить Katana, выполните следующую команду в терминале на серевере:
 
 ```bash
-sudo bash -c  'git clone https://github.com/atonal2/Katana.git && cd Katana && chmod +x katana.sh && chmod +x katana_linux && ./katana.sh'
+sudo bash -c  'git clone https://github.com/atonal2/Katana.git && cd Katana && chmod +x katana.sh && chmod +x katana_linux1 && ./katana.sh'
 ```
 
 ## После этого откроется меню с выбором команды:
