@@ -107,7 +107,7 @@ while true; do
             echo "=== Выбор веток ==="
             # Отобразим список доступных веток
             echo "Доступные ветки:"
-            echo "1 - Low risk"
+            echo "1 - PonziPaid"
             echo "2 - Medium risk"
             echo "3 - KOL vision"
             echo "4 - High risk"
